@@ -8,8 +8,7 @@
 
 **Link to work:** [Tic Tac Toe](https://github.com/100DaysOfVue/tic-tac-toe/commit/5da4662a18a405a543d044eee565ddcc4476a3b8)
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 2: November 14, 2018
 
 **Today's Progress**: Add the component functionality to change props from a child component to his parent.
 
