@@ -26,3 +26,12 @@
 **Link(s) to work**
 1. [Player Change Functionaly commit](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Winner Functionality commit](https://github.com/100DaysOfVue/tic-tac-toe/commit/d2c7cae003caa99beed1b8d2ea25eebd4193d4b3)
+
+### Day 4: November 19, 2018
+
+**Today's Progress**: I implement the auto play functionality for the computer in the tic tac toe App.
+
+**Thoughts**: Was hard, but I coded what I thought that the program should do, it has BIG bugs but I think that runs OK for me. At the beginning I just wanted to implement the functionality for even and odd cases but then I realized that it was not going to work because I was not thinking in some cases. Then I try to use switch cases (but took me to LOT of time to change) althrough it worked I asked to some friend if I can implement the functionality without switch cases, he told me some options that blow my mind.  
+
+**Link(s) to work**
+1. [Add computer auto play in Tic Tac Toe](https://github.com/100DaysOfVue/tic-tac-toe/commit/f49624048343f9f8919fa0a945404f0f983b1ba4)
