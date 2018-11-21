@@ -35,3 +35,13 @@
 
 **Link(s) to work**
 1. [Add computer auto play in Tic Tac Toe](https://github.com/100DaysOfVue/tic-tac-toe/commit/f49624048343f9f8919fa0a945404f0f983b1ba4)
+
+### Day 5: November 20, 2018
+
+**Today's Progress**: I worked in simplify the computer turns functions in the tic tac toe App.
+
+**Thoughts**: I struggled to use lookup objects instead of 'if' statement, I know that it can work (on my mind) but I still without hit. 
+
+**Link(s) to work**
+
+Tomorrow I add some links
