@@ -45,3 +45,13 @@
 **Link(s) to work**
 
 Tomorrow I add some links
+
+### Day 6: November 21, 2018
+
+**Today's Progress**: I Finally finished the simplification of computer turns function using lookup object in the tic tac toe App.
+
+**Thoughts**: The main problen of yesterday was that I was picking the wrong use case of "loockup object" of the [guide used](https://www.codereadability.com/replacing-if-statements-with-object-lookups/)
+
+**Link(s) to work**
+
+1. [Add lookup object for simplification of checks functions](https://github.com/100DaysOfVue/tic-tac-toe/commit/aecbb02040d058b898d85444aeda78d9594464f0)
