@@ -55,3 +55,13 @@ Tomorrow I add some links
 **Link(s) to work**
 
 1. [Add lookup object for simplification of checks functions](https://github.com/100DaysOfVue/tic-tac-toe/commit/aecbb02040d058b898d85444aeda78d9594464f0)
+
+### Day 7: November 22, 2018
+
+**Today's Progress**: I fix the overwrite bug that computer turn functions in the tic tac toe App.
+
+**Thoughts**: I have to eliminate a lot of things but it was easy. I think that the function can be improved but that is work for tomorrow.
+
+**Link(s) to work**
+
+1. [Fix overwrite square bug in computer turn function](https://github.com/100DaysOfVue/tic-tac-toe/commit/22635b36d05a0c19d3a16bc0b904492c9bef8e03)
