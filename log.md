@@ -65,3 +65,13 @@ Tomorrow I add some links
 **Link(s) to work**
 
 1. [Fix overwrite square bug in computer turn function](https://github.com/100DaysOfVue/tic-tac-toe/commit/22635b36d05a0c19d3a16bc0b904492c9bef8e03)
+
+### Day 8: November 24, 2018
+
+**Today's Progress**: I keep working in the tic tac toe App.
+
+**Thoughts**: I easily added a random move when check lines function doesn't find a match case. And find a bug in a case. I struggled to implement a 'tie game' function but go through some errors with vue lifecycle component.
+
+**Link(s) to work**
+
+1. [Add random move](https://github.com/100DaysOfVue/tic-tac-toe/commit/cab6717363e1c6a0b69c4c8384d85d8b2305fb1d)
