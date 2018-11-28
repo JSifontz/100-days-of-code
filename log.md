@@ -75,3 +75,25 @@ Tomorrow I add some links
 **Link(s) to work**
 
 1. [Add random move](https://github.com/100DaysOfVue/tic-tac-toe/commit/cab6717363e1c6a0b69c4c8384d85d8b2305fb1d)
+
+### Day 9: November 26, 2018
+
+**Today's Progress**: I add a tie game functionality in the tic tac toe App.
+
+**Thoughts**: Since 24 I was trying to applied this functionality. I begun trying with some functions in lifecycle hooks of vue, but when the functions triggered the data was not reactive. So instead I decided (the more logical. But in that time I wasn't logical) add a condition in `theWinneris` function.
+
+**Link(s) to work**
+
+1. [Add Tie Game functionality](https://github.com/100DaysOfVue/tic-tac-toe/commit/1c7707be22bb4f32ba790e68471cf412f979a2f5)
+
+### Day 10: November 27, 2018
+
+**Today's Progress**: Finally the Tic Tac Toe App is finished. Yay! :tada::tada::tada:
+
+**Thoughts**: This day I added the styles and animations. Struggle a little with [Vuejs animations](https://vuejs.org/v2/guide/transitions.html) but for the rest was a little easy. Even add the reset functionality was.
+
+**Link(s) to work**
+
+1. [Add styles](https://github.com/100DaysOfVue/tic-tac-toe/commit/8ce442391ee68267d23e6f44e2dbb83384e3b966)
+2. [Reset functionality](https://github.com/100DaysOfVue/tic-tac-toe/commit/4a23aad00ed24ece4dba08ff5cdaad1825b3c2ae)
+3. [Add animations](https://github.com/100DaysOfVue/tic-tac-toe/commit/69407bfedf7bd1e904d8b92f4182735b822f0583)
