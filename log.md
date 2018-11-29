@@ -97,3 +97,13 @@ Tomorrow I add some links
 1. [Add styles](https://github.com/100DaysOfVue/tic-tac-toe/commit/8ce442391ee68267d23e6f44e2dbb83384e3b966)
 2. [Reset functionality](https://github.com/100DaysOfVue/tic-tac-toe/commit/4a23aad00ed24ece4dba08ff5cdaad1825b3c2ae)
 3. [Add animations](https://github.com/100DaysOfVue/tic-tac-toe/commit/69407bfedf7bd1e904d8b92f4182735b822f0583)
+
+### Day 11: November 28, 2018
+
+**Today's Progress**: Deploy the tic tac toe with [Netlify](https://www.netlify.com/)
+
+**Thoughts**: I fought to try to deploy the app with github pages but at the end I finished using Netlify. I follow the [deployment guide in Vue CLI 3](https://cli.vuejs.org/guide/deployment.html#github-pages) and doesn't work.
+
+**Link(s) to work**
+
+1. [Tic Tac Toe App](100daysofcode-tic-tac-toe.netlify.com)
