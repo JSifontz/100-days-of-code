@@ -24,7 +24,7 @@
 **Thoughts** Looping with vue is really easy, but I spare some time because I did a bad assingment in the for loop of function `theWinnerIs`. I need careful
 
 **Link(s) to work**
-1. [Player Change Functionaly commit](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
+1. [Player Change Functionaly commit](https://github.com/100DaysOfVue/tic-tac-toe/commit/af9de92b62a98ae830b369fd9ccd5396a0862fdc)
 2. [Winner Functionality commit](https://github.com/100DaysOfVue/tic-tac-toe/commit/d2c7cae003caa99beed1b8d2ea25eebd4193d4b3)
 
 ### Day 4: November 19, 2018
