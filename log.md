@@ -107,3 +107,16 @@ Tomorrow I add some links
 **Link(s) to work**
 
 1. [Tic Tac Toe App](100daysofcode-tic-tac-toe.netlify.com)
+
+### Day 12: December 04, 2018
+
+**Today's Progress**: I started to build 'Show The Local Weather' page.
+
+**Thoughts**: I Designed a mockup, before to start, for more speed in building the page. Tried to use a tool like [figma](https://figma.com), but it took me so much time so I stopped. The curious thing was I enjoyed. :relaxed:
+
+I start to use the BEM methodology for CSS. I don't get used yet, but I like the descriptive.
+
+**Link(s) to work**
+
+1. [Add modal component](https://github.com/100DaysOfVue/show-local-weather/commit/650d44bf2f00f4ea7c0cc2230e22071b637707fb)
+2. [Add weather component](https://github.com/100DaysOfVue/show-local-weather/commit/edfa26a9c6ed0f9e10ecd63902af54462ae2daa0)
