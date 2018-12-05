@@ -108,7 +108,7 @@ Tomorrow I add some links
 
 1. [Tic Tac Toe App](100daysofcode-tic-tac-toe.netlify.com)
 
-### Day 12: December 04, 2018
+### Day 12: December 03, 2018
 
 **Today's Progress**: I started to build 'Show The Local Weather' page.
 
@@ -120,3 +120,14 @@ I start to use the BEM methodology for CSS. I don't get used yet, but I like the
 
 1. [Add modal component](https://github.com/100DaysOfVue/show-local-weather/commit/650d44bf2f00f4ea7c0cc2230e22071b637707fb)
 2. [Add weather component](https://github.com/100DaysOfVue/show-local-weather/commit/edfa26a9c6ed0f9e10ecd63902af54462ae2daa0)
+
+### Day 13: December 04, 2018
+
+**Today's Progress**: I worked to build a functionality to change between components in 'Show The Local Weather' page.
+
+**Thoughts**: i discovered that only the components/tags that are called directly within other components are the only ones that can be use the <style scoped> in the template.
+
+**Link(s) to work**
+
+1. [Add search component](https://github.com/100DaysOfVue/show-local-weather/commit/c19577d9333039ecdcfe89f27659ea843c39ed1d)
+2. [Add functionality to change between components](https://github.com/100DaysOfVue/show-local-weather/commit/d4e934ee8849b14a6fbcf4c254173383c06c6ed2)
