@@ -125,9 +125,15 @@ I start to use the BEM methodology for CSS. I don't get used yet, but I like the
 
 **Today's Progress**: I worked to build a functionality to change between components in 'Show The Local Weather' page.
 
-**Thoughts**: i discovered that only the components/tags that are called directly within other components are the only ones that can be use the <style scoped> in the template.
+**Thoughts**: I discovered that only the components/tags that are called directly within other components are the only ones that can be use the <style scoped> in the template.
 
 **Link(s) to work**
 
 1. [Add search component](https://github.com/100DaysOfVue/show-local-weather/commit/c19577d9333039ecdcfe89f27659ea843c39ed1d)
 2. [Add functionality to change between components](https://github.com/100DaysOfVue/show-local-weather/commit/d4e934ee8849b14a6fbcf4c254173383c06c6ed2)
+
+### Day 14: December 05, 2018
+
+**Today's Progress**: I try to use the [Open Weather Map API](https://Openweathermap.org) in 'Show The Local Weather' page but I couldn't.
+
+**Thoughts**: I think that can be a problem with the headers in the fetch method. Even if is a response 200 it throw the error `TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them at Function.remote` And I don't know what that means.
