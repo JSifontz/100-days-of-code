@@ -137,3 +137,16 @@ I start to use the BEM methodology for CSS. I don't get used yet, but I like the
 **Today's Progress**: I try to use the [Open Weather Map API](https://Openweathermap.org) in 'Show The Local Weather' page but I couldn't.
 
 **Thoughts**: I think that can be a problem with the headers in the fetch method. Even if is a response 200 it throw the error `TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them at Function.remote` And I don't know what that means.
+
+### Day 15: December 07, 2018
+
+**Today's Progress**: Finally I could make a [Open Weather Map API](https://Openweathermap.org) API call in 'Show The Local Weather' page.
+
+**Thoughts**: I could not make the call before because I was using an incorrect API endpoint.
+
+I was using a filter method to show the API temperature in degrees Celsius or Fahrenheit depending on another property, but I realized that the filter methods do not link the vue instance, it just takes the value to change
+
+**Link(s) to work**
+
+1. [Add API call](https://github.com/100DaysOfVue/show-local-weather/commit/57a7d26e9db74086488cdf3cd2033ceedabe3cb9)
+2. [Add weather props to weather component](https://github.com/100DaysOfVue/show-local-weather/commit/c98c85582500b9006488be26db53057c952a467b)
