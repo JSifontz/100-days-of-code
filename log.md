@@ -150,3 +150,15 @@ I was using a filter method to show the API temperature in degrees Celsius or Fa
 
 1. [Add API call](https://github.com/100DaysOfVue/show-local-weather/commit/57a7d26e9db74086488cdf3cd2033ceedabe3cb9)
 2. [Add weather props to weather component](https://github.com/100DaysOfVue/show-local-weather/commit/c98c85582500b9006488be26db53057c952a467b)
+
+### Day 15: December 08, 2018
+
+**Today's Progress**: I completed all the API calls (through coordinates and by city name) in Local Weather Page. I also did some refactorization for simplicity.
+
+**Thoughts**: For the API call by city name I had to do a refactorization of components that allow me to pass me the data more efficiently. 
+
+**Link(s) to work**
+
+1. [API call by city in search component](https://github.com/100DaysOfVue/show-local-weather/commit/f2c4e39098ff2fa94c1877ce7f97c965913ea0dc)
+2. [Delete modal component](https://github.com/100DaysOfVue/show-local-weather/commit/14a8f523646842dfd45ea1bf6a12f3cb14fdf339)
+3. [Add search weather by city name in App component](https://github.com/100DaysOfVue/show-local-weather/commit/b0b05aab38a2dc5c8a426862297d031b36e87be7)
