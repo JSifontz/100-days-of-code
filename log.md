@@ -162,3 +162,13 @@ I was using a filter method to show the API temperature in degrees Celsius or Fa
 1. [API call by city in search component](https://github.com/100DaysOfVue/show-local-weather/commit/f2c4e39098ff2fa94c1877ce7f97c965913ea0dc)
 2. [Delete modal component](https://github.com/100DaysOfVue/show-local-weather/commit/14a8f523646842dfd45ea1bf6a12f3cb14fdf339)
 3. [Add search weather by city name in App component](https://github.com/100DaysOfVue/show-local-weather/commit/b0b05aab38a2dc5c8a426862297d031b36e87be7)
+
+### Day 16: December 09, 2018
+
+**Today's Progress**: I did some changes to the styles of search component. And work in the design of some icons for local weather app.
+
+**Thoughts**: Today I realised that for a feature in search functions I need to do some backend, so I decided to implement later with GraphQL.
+
+**Link(s) to work**
+
+1. [Change the styles of search component](https://github.com/100DaysOfVue/show-local-weather/commit/1a30b57079175f77e0cfae8ac16dfd5cf8275c17)
