@@ -172,3 +172,34 @@ I was using a filter method to show the API temperature in degrees Celsius or Fa
 **Link(s) to work**
 
 1. [Change the styles of search component](https://github.com/100DaysOfVue/show-local-weather/commit/1a30b57079175f77e0cfae8ac16dfd5cf8275c17)
+
+### Day 18-19: December 10-11, 2018
+
+**Today's Progress**: Work all two days creating the svg icons for the local weather app.
+
+**Thoughts**: I was a real challenge to create that. First of all, I did not know how to use a design program, I try gravit design and vectr (Inkscape to but I felt a little overwhelmed due it interface). Mainly I used gravit design until get used to how that kind of programs work, then I changed to vectr because I liked more.
+
+Second. When I exported the design was a real problem because I did not know much about svg. So I be forced to learn more about it.
+
+I learned that in paths of svg tags can be defined inside a tag call "*defs*" but, to be shown,  it needs to be used with a tag call "*use*".
+
+Also the paths can be grouped in "*g*" tags for apply styles to all "*paths*" elements inside the group.
+
+### Day 20: December 14, 2018
+
+**Today's Progress**: I Finally added the svg assets to the weather app and use dynamic url import in local weather app.
+
+**Thoughts**: After add the lookup object for the url svg icons I wanted to use it dynamically, without use conditionals like:
+
+```
+<img src="icon1" v-if="weatherIcon == icon1" />
+< img src="icon2" v-else-if="weatherIcon == icon2" />
+...
+```
+
+I want to use some like: `<img :src="iconX" />` and add the url through the lookup object but reading in some issue in vuejs github  I can use ```require(`~assets/${iconX}.svg`)``` in a function or computed propertie and used in the src attribute as `<img :src="svgPath(iconX)" />` and it worked :tada:
+
+**Link(s) to work**
+
+1. [Add dynamic import of icons](https://github.com/100DaysOfVue/show-local-weather/commit/a00b902b2fc9ca12c63c5a7b6c420d7df00bfa75)
+2. [Add lookup objects cases](https://github.com/100DaysOfVue/show-local-weather/commit/b63dd3f0547d660a6ff49d88797412343f794aab)
