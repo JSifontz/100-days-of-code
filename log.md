@@ -203,3 +203,29 @@ I want to use some like: `<img :src="iconX" />` and add the url through the look
 
 1. [Add dynamic import of icons](https://github.com/100DaysOfVue/show-local-weather/commit/a00b902b2fc9ca12c63c5a7b6c420d7df00bfa75)
 2. [Add lookup objects cases](https://github.com/100DaysOfVue/show-local-weather/commit/b63dd3f0547d660a6ff49d88797412343f794aab)
+
+### Day 21: December 15, 2018
+
+**Today's Progress**: I add svg icons components for better animation in local weather app.
+
+**Thoughts**: I go through all knowledge acquired about svg (defs, groups, use) to open every single svg elements and turn it into a vue component. Was painful but I enjoyed it.
+
+
+**Link(s) to work**
+
+1. [Add icons components](https://github.com/100DaysOfVue/show-local-weather/commit/d3d9a0e4cf087522626d6df277a204602a8f5490)
+
+### Day 22: December 17, 2018
+
+**Today's Progress**: Add the dynamic import of svg components also implement the svg animation in local weather app.
+
+**Thoughts**: I used the [Dynamic Components](https://vuejs.org/v2/guide/components.html#Dynamic-Components) feature of vue.js. The problem with that feature is that I had to import and register all the components before using it and I just want to import just one component.
+
+Doing some research I find an [interesting article](https://medium.com/scrumpy/dynamic-component-templates-with-vue-js-d9236ab183bb) that solved my problem using the [dynamic import from webpack](https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234) (with import('url') function).
+
+For svg animation, I used the fill, opacity to animate the icons. For backgrounds with linear gradient I used the tag "animate" of svg. To guide me and understand how animate linear gradients in svg I used this [article](https://designmodo.com/animate-svg-gradients/).
+
+**Link(s) to work**
+
+1. [Add dynamic import of icon component](https://github.com/100DaysOfVue/show-local-weather/commit/9d04ed16273363eb88b996ad8d0c722d4dd0b9eb)
+2. [Add full svg animation to icon components](https://github.com/100DaysOfVue/show-local-weather/commit/25b8d53535e9a89756c56b0e55df03df7dd20298)
