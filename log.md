@@ -229,3 +229,13 @@ For svg animation, I used the fill, opacity to animate the icons. For background
 
 1. [Add dynamic import of icon component](https://github.com/100DaysOfVue/show-local-weather/commit/9d04ed16273363eb88b996ad8d0c722d4dd0b9eb)
 2. [Add full svg animation to icon components](https://github.com/100DaysOfVue/show-local-weather/commit/25b8d53535e9a89756c56b0e55df03df7dd20298)
+
+### Day 23: January 03, 2018
+
+**Today's Progress**: Add styles to weather in local weather app.
+
+**Thoughts**: I only did CSS today. Although it was simple, I struggled a bit to decide if I was using the flexbox or grid system. I learn to use the sup tag and read others that call my attention. 
+
+**Link(s) to work**
+
+1. [Add styles to weather results](https://github.com/100DaysOfVue/show-local-weather/commit/17dd1d158ca249fa72a6f1f761eed773b0dfda71)
