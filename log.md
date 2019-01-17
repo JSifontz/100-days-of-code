@@ -230,7 +230,7 @@ For svg animation, I used the fill, opacity to animate the icons. For background
 1. [Add dynamic import of icon component](https://github.com/100DaysOfVue/show-local-weather/commit/9d04ed16273363eb88b996ad8d0c722d4dd0b9eb)
 2. [Add full svg animation to icon components](https://github.com/100DaysOfVue/show-local-weather/commit/25b8d53535e9a89756c56b0e55df03df7dd20298)
 
-### Day 23: January 03, 2018
+### Day 23: January 03, 2019
 
 **Today's Progress**: Add styles to weather in local weather app.
 
@@ -239,3 +239,107 @@ For svg animation, I used the fill, opacity to animate the icons. For background
 **Link(s) to work**
 
 1. [Add styles to weather results](https://github.com/100DaysOfVue/show-local-weather/commit/17dd1d158ca249fa72a6f1f761eed773b0dfda71)
+
+### Day 24: January 04, 2019
+
+**Today's Progress**: Add animations to weather results in local weather app.
+
+**Thoughts**: I worked with animations vue using [transition tag] (https://vuejs.org/v2/guide/transitions.html). I struggled a bit to use it with 2 main tags because I need to use the [transition mode] (https://vuejs.org/v2/guide/transitions.html#Transitioning-Between-Components) transition between components Also, I discovered that for nest animations (for example, a div that has some animation to render it but inside it has elements that need animation) I need to use a transition group tag (which I have not done yet) or just use the CSS animation.
+
+I also created a data reset feature for proper animation when a search is performed.
+
+**Link(s) to work**
+
+1. [Add animation to weather results](https://github.com/100DaysOfVue/show-local-weather/commit/a0316337043625836938fe83c61d697723379262)
+2. [Add reset data into search by city name function](https://github.com/100DaysOfVue/show-local-weather/commit/0e55017eda4e9747fef7f658e9ba109b89e3da3b)
+
+### Day 25: January 06, 2019
+
+**Today's Progress**: Add css variables in local weather app.
+
+**Thoughts**: For an easy way to implement responsive design I applied css variable. At the beginning I don't know where to put the :root rules in CSS code, but doing some research I found it.
+
+**Link(s) to work**
+
+1. [Add css variables](https://github.com/100DaysOfVue/show-local-weather/commit/6b9625746c4638369cd605cdc9284fc419aef388)
+
+### Day 26: January 07, 2019
+
+**Today's Progress**: Add media queries properties in local weather app.
+
+**Thoughts**: I fought for the breakpoints I needed to use. There are many media breakpoints on the web, but the ones I found do not work on my page, so I decided to reduce the screen and observe the changes that occurred and decide which breakpoints I would use.
+
+**Link(s) to work**
+
+1. [Add media queries](https://github.com/100DaysOfVue/show-local-weather/commit/55dce84371f32398745d08fbf798bdb6b93329c9)
+
+### Day 27: January 08, 2019
+
+**Today's Progress**: Add error management funcionality on API call in local weather app.
+
+**Thoughts**: I really fought to implement this functionality. Searching in vue cookbook section's [using axes to consume apis] (https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html) I found a way to implement error management. My problem was that I was not using axios (I was using fetch), so I took the main idea of that publication and used it to implement it my way.
+
+**Link(s) to work**
+
+1. [Add error management to function search weather by name](https://github.com/100DaysOfVue/show-local-weather/commit/08adb98b1883343ce74d997a59b63ab373b27f77)
+2. [Fix transitions durations in weather component](https://github.com/100DaysOfVue/show-local-weather/commit/861fd4ae66c3e3a2214545fd83fb43b8e4b925da)
+3. [Add error messages](https://github.com/100DaysOfVue/show-local-weather/commit/e23e39e038ebcb0a68de3836e02612129fcfdf18)
+
+### Day 28: January 09, 2019
+
+**Today's Progress**: Add footer components to local weather app.
+
+**Thoughts**: This component was very easy to implement, because this is just for information. The only that I fought was to match the right height that the component needed, but with css variables wasn't so hard.
+
+**Link(s) to work**
+
+1. [Add footer comp](https://github.com/100DaysOfVue/show-local-weather/commit/b7564e88a6bd01e5dcffd64d048f52cdefb1c87d)
+2. [Add footer styles](https://github.com/100DaysOfVue/show-local-weather/commit/b7564e88a6bd01e5dcffd64d048f52cdefb1c87d)
+
+### Day 29: January 10, 2019
+
+**Today's Progress**: Add mist icons component to local weather app.
+
+**Thoughts**: This was something that I was forecasting a little, But in order to stop it I just add the icon without any animation.
+
+**Link(s) to work**
+
+1. [Add mist comp](https://github.com/100DaysOfVue/show-local-weather/commit/28c4c1f6a678e74176741c3e5c1ef1758897bf5c)
+2. [Add mist icon case](https://github.com/100DaysOfVue/show-local-weather/commit/52ff886cff473474044c42f6cdbbb95641aa6f9d)
+
+### Day 30: January 11, 2019
+
+**Today's Progress**: Add font-family and color to local weather app.
+
+**Thoughts**: font-family and color always are my most difficult part. For font-family I follow this [spanish article](https://platzi.com/blog/tipografia/) and for color I used [Coolors App](https://coolors.co/) and [this article](https://platzi.com/blog/color-en-interfaces/).
+
+**Link(s) to work**
+
+1. [Add colors](https://github.com/100DaysOfVue/show-local-weather/commit/34723ccbfe7ba1606023fe30c2cd687ed59cd76c)
+2. [Add fonts](https://github.com/100DaysOfVue/show-local-weather/commit/632d5b0a56e0f28a519b82aa2193ae555f6359b6)
+
+### Day 31: January 12, 2019
+
+**Today's Progress**: Fix all bugs to deploy local weather app.
+
+**Thoughts**: Today was the day to fix everything to deploy the application. The most difficult thing was to fix the css properties of the search component so that they work correctly in both chrome and mozilla.
+
+For fix that I have to reset the default propertie that navegator apply, for that I have to do some research and find a [reset styles article](http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/) that I just apply to `form, button and input`.
+
+**Link(s) to work**
+
+1. [Fix search responsive properties](https://github.com/100DaysOfVue/show-local-weather/commit/ad5736f52efa8133a8a88253d10c5738376ff7c9)
+2. [Fix mobile footer properties](https://github.com/100DaysOfVue/show-local-weather/commit/ecaaeeffe04678d75cdace3e532612223b675d9a)
+3. [Fix icon animations](https://github.com/100DaysOfVue/show-local-weather/commit/109137663aca5c4fc21ea41ed8cd9bb4b138bdf4)
+
+### Day 32: January 14, 2019
+
+**Today's Progress**: Deploy local weather app with netlify. :tada::tada::tada:
+
+**Thoughts**: Was a real pain try to deploy to github pages (well, my error was really stupid :sweat_smile:). Following the [vue cli deployment section](https://cli.vuejs.org/guide/deployment.html#github-pages) where says that I have to create a `vue.config.js` file and edit the `publicPath` but the problem is that `publicPath` option going to use in future vue-cli version (v3.3 exactly) but my own was in 3.0 and I need to edit `baseUrl` instead.
+
+Moreover, when I finish to understand that, the another problem was pick the right github url. This problem I will try to solve it in the next project.
+
+**Link(s) to work**
+
+1. [show local weather app](https://https://100daysofcode-tic-tac-toe.netlify.com)
