@@ -244,7 +244,7 @@ For svg animation, I used the fill, opacity to animate the icons. For background
 
 **Today's Progress**: Add animations to weather results in local weather app.
 
-**Thoughts**: I worked with animations vue using [transition tag] (https://vuejs.org/v2/guide/transitions.html). I struggled a bit to use it with 2 main tags because I need to use the [transition mode] (https://vuejs.org/v2/guide/transitions.html#Transitioning-Between-Components) transition between components Also, I discovered that for nest animations (for example, a div that has some animation to render it but inside it has elements that need animation) I need to use a transition group tag (which I have not done yet) or just use the CSS animation.
+**Thoughts**: I worked with animations vue using [transition tag](https://vuejs.org/v2/guide/transitions.html). I struggled a bit to use it with 2 main tags because I need to use the [transition mode](https://vuejs.org/v2/guide/transitions.html#Transitioning-Between-Components) transition between components Also, I discovered that for nest animations (for example, a div that has some animation to render it but inside it has elements that need animation) I need to use a transition group tag (which I have not done yet) or just use the CSS animation.
 
 I also created a data reset feature for proper animation when a search is performed.
 
