@@ -277,7 +277,7 @@ I also created a data reset feature for proper animation when a search is perfor
 
 **Today's Progress**: Add error management funcionality on API call in local weather app.
 
-**Thoughts**: I really fought to implement this functionality. Searching in vue cookbook section's [using axes to consume apis] (https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html) I found a way to implement error management. My problem was that I was not using axios (I was using fetch), so I took the main idea of that publication and used it to implement it my way.
+**Thoughts**: I really fought to implement this functionality. Searching in vue cookbook section's [using axes to consume apis](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html) I found a way to implement error management. My problem was that I was not using axios (I was using fetch), so I took the main idea of that publication and used it to implement it my way.
 
 **Link(s) to work**
 
