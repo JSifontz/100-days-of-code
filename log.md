@@ -343,3 +343,14 @@ Moreover, when I finish to understand that, the another problem was pick the rig
 **Link(s) to work**
 
 1. [show local weather app](https://https://100daysofcode-tic-tac-toe.netlify.com)
+
+### Day 33: January 23, 2019
+
+**Today's Progress**: Design the interface and refactor default components of [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: I went through the design process using [figma](https://www.figma.com) and took out two possible approach. I'm still deciding which one to use. Also a did a little of refactorization of the default components provided by vue-cli
+
+**Link(s) to work**
+
+1. [Delete default styles](https://github.com/100DaysOfVue/random-quote-machine/commit/53de88853c649af8afe2adc1f30d14998003d98d)
+2. [Delete default components](https://github.com/100DaysOfVue/random-quote-machine/commit/b30926d5951f443919a5c7c2ea03830ff0c6ed37)
