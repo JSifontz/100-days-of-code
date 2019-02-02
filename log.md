@@ -354,3 +354,23 @@ Moreover, when I finish to understand that, the another problem was pick the rig
 
 1. [Delete default styles](https://github.com/100DaysOfVue/random-quote-machine/commit/53de88853c649af8afe2adc1f30d14998003d98d)
 2. [Delete default components](https://github.com/100DaysOfVue/random-quote-machine/commit/b30926d5951f443919a5c7c2ea03830ff0c6ed37)
+
+### Day 34: January 26, 2019
+
+**Today's Progress**: Added [axios](https://github.com/axios/axios) and did the API call in  [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: I did a little of research about how use axios, but it was easy to use.
+
+**Link(s) to work**
+
+1. [API call](https://github.com/100DaysOfVue/random-quote-machine/commit/b173b093be210aeb96154b9b6157472c07634913)
+
+### Day 35: January 27, 2019
+
+**Today's Progress**: Added styles to quote component in  [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: I prepared everything to add the tweet button. I also did some change of class name that, I've to admit, they could be in a separte commit. 
+
+**Link(s) to work**
+
+1. [styles to quote](https://github.com/100DaysOfVue/random-quote-machine/commit/d4b933bbe2a51bd1ac751bc428bc38d4c06088a6)
