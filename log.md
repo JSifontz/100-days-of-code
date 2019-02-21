@@ -374,3 +374,35 @@ Moreover, when I finish to understand that, the another problem was pick the rig
 **Link(s) to work**
 
 1. [styles to quote](https://github.com/100DaysOfVue/random-quote-machine/commit/d4b933bbe2a51bd1ac751bc428bc38d4c06088a6)
+
+### Day 36: February 01, 2019
+
+**Today's Progress**: I added the twitter button in [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: It was little hard because I just wanted use the SVG using an `anchor` tag, so for that I learn how to use a svg as background with css. In that order I need to apply some padding because I'm not adding any content inside the tag.
+
+**Link(s) to work**
+
+1. [twitter button](https://github.com/100DaysOfVue/random-quote-machine/commit/cd8d3d3bb452222af630f4b785501fd042dabcaf)
+
+### Day 37: February 05, 2019
+
+**Today's Progress**: I added many animations in [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: In order to add this animations (for title and buttons) I used javascript to add it. But I don't figure out how to implement the twitter button animation at the moment.
+
+**Link(s) to work**
+
+1. [title animation](https://github.com/100DaysOfVue/random-quote-machine/commit/77c4fe6c3f111af26051135d7fc367c8438e14fc)
+2. [button animation](https://github.com/100DaysOfVue/random-quote-machine/commit/10391e5227ed61202e9d043481c80c288f4795ee)
+1. [button container animation](https://github.com/100DaysOfVue/random-quote-machine/commit/9a4cfea0bfbfdec0c9c74b554231c54cfe531e60)
+
+### Day 38: February 21, 2019
+
+**Today's Progress**: I added twitter animation and fix the number of pixel that the title translate [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: I figured out that using CSS animations was the best options to implement twitter button animation. I even thinking on change the other animations to CSS. I need to refactor my HTML, looks like a spaghetti code (I think :disappointed:)
+
+**Link(s) to work**
+
+1. [refac title animation](https://github.com/100DaysOfVue/random-quote-machine/commit/5a4d9f4ceb7621fb2ddb375c1334a56c79c828b0)
