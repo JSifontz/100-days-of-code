@@ -406,3 +406,25 @@ Moreover, when I finish to understand that, the another problem was pick the rig
 **Link(s) to work**
 
 1. [refac title animation](https://github.com/100DaysOfVue/random-quote-machine/commit/5a4d9f4ceb7621fb2ddb375c1334a56c79c828b0)
+
+### Day 39: February 22, 2019
+
+**Today's Progress**: I add the animation when quote information render in [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: Today I understood why the animations using list doesn't worked out. I just had to use vue's normal animation with two components: Loading component and the real quote. Now I have to figure out how to make that instances like quote, doesn't render initially (I think that's only in render conditions).
+
+**Link(s) to work**
+
+1. [Transition to quote](https://github.com/100DaysOfVue/random-quote-machine/commit/fa2ec8652b81b795a19b97c61c4971d3e9925c08)
+2. [Fix the tweet link](https://github.com/100DaysOfVue/random-quote-machine/commit/8fe075f50e8234b6c4dcbe61cd0422573b3ce811)
+
+### Day 40: February 23, 2019
+
+**Today's Progress**: I added `blackquote` and `cite` tags on HTML and add CSS variables in [random quote machine](https://github.com/100DaysOfVue/random-quote-machine)
+
+**Thoughts**: Today I learned how work the quotes in HTML. Mainly exist two tags: `<q></q>` and `<blockquote></blockquote>`, the difference between this two tags base that one is used to inline short cites and block cites (comming from other source) respectivily. It means one is and inline element whereas the otherone is a block element. In both we can add a `::before` and `::after` pseudo-elements
+
+**Link(s) to work**
+
+1. [Add blockquote](https://github.com/100DaysOfVue/random-quote-machine/commit/dc962d6bcd72319a8a773937f717fd3b65a24996)
+2. [Add CSS vars](https://github.com/100DaysOfVue/random-quote-machine/commit/8c7c3b2451d1b426d2294dab6fe1f0fab95a54b7)
